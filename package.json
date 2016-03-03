@@ -1,0 +1,22 @@
+{
+  "name": "charcount",
+  "version": "1.0.0",
+  "description": "Count visual length of javascript string.",
+  "keywords": [
+    "string",
+    "length"
+  ],
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "npm run lint && ./node_modules/.bin/mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": "nodeca/charcount",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "2.2.0",
+    "mocha": "*"
+  }
+}
